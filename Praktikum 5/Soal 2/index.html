@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Soal 2</title>
+        <meta name =”author” content="Nicholas_Christopher_Rudy 2172020">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        body{
+            background-image: url(assets/background.jpg);
+            font-family:'Nunito',sans-serif;
+            background-size:cover;
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+        }
+        div{
+            background-color: rgba(178, 190, 195,0.8);
+            margin-right: auto;
+            margin-left: auto;
+            width: 450px;
+            padding: 20px 20px;
+            line-height: 30px;
+        }
+        p{color:white;font-size: 30px;}
+        #radio{width: 20px;}
+        #check{width: 20px;}
+        #submit{height: 50px;background-color:#2dcc70;}
+        input{width: 450px;}
+        select{width: 450px;}
+    </style>
+    <body>
+        <p align="center">Fill in this form</p>
+        <br>
+        <div>
+        Full Name :
+        <br>
+        <input type="text" name="name">
+        <br>
+        Email :
+        <br>
+        <input type="email" name="email">
+        <br>
+        Age :
+        <br>
+        <input type="number" name="number">
+        <br>
+        Gender :
+        <br>
+        <select name="gender" id="gender">
+            <option disabled selected>Select your gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select> 
+        <br>
+        Date of birth :
+        <br>
+        <input type="date" name="birth">
+        <br>
+        Choose your laptop :
+        <br>
+        <select name="laptop">
+            <option disabled selected>Laptop</option>
+                <optgroup label="Asus">
+                    <option value="Laptop Asus A456UQ">Laptop Asus A456UQ</option>
+                    <option value="Laptop Asus E410MA">Laptop Asus E410MA</option>
+                    <option value="Laptop Asus Vivobook K403FA">Laptop Asus Vivobook K403FA</option>
+                    <option value="Laptop ASUS BR1100CKA-GJ0410">Laptop ASUS BR1100CKA-GJ0410</option>
+                </optgroup>
+                <optgroup label="Lenovo">
+                    <option value="Laptop Lenovo ideapad S340">Laptop Lenovo ideapad S340</option>
+                    <option value="Laptop Lenovo ideapad slim 3">Laptop Lenovo ideapad slim 3</option>
+                    <option value="Laptop Lenovo T440p">Laptop Lenovo T440p</option>
+                </optgroup> 
+        </select> <br>
+        Enter your card number :
+        <br>
+        <input type="number" name="cardnumber" placeholder="xxxx xxxx xxxx xxxx">
+        Payment :
+        <br>
+        <input type="radio" name="Payment" id="radio"> 1x 
+        <br>
+        <input type="radio" name="Payment" id="radio"> 3x 
+        <br>
+        <input type="radio" name="Payment" id="radio"> 6x 
+        <br>
+        <input type="radio" name="Payment" id="radio"> 12x 
+        <br>
+        Which brand do you like :<br>
+        <input type="checkbox" name="brand" id="check"> Asus
+        <br>
+        <input type="checkbox" name="brand" id="check"> Lenovo
+        <br>
+        <input type="checkbox" name="brand" id="check"> Acer
+        <br>
+        <input type="checkbox" name="brand" id="check"> HP 
+        <br>
+        <input type="button" value="Submit" id="submit"><br>
+    </div>
+    </body>
+</html>
